@@ -1,0 +1,9 @@
+﻿.form-group{
+	display: flex;
+	justify-content: center;
+}
+
+#input_ID, #input_PW{
+	width: 150px;
+	
+}

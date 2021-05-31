@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/Login.css">
+    <script src="/js/Login.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <title>Welcome to Kakao Talk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKTelecom</span>
+        <img class="status-bar_icons" src="/img/wifi.png" alt="Not found img">
+      </div>
+      <div class="status-bar_column">
+        <span style="font-weight: bold;">18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>15%</span>
+        <img class="status-bar_icons" src="/img/battery.png" alt="Not found img">
+        <img class="status-bar_icons" src="/img/lightning.png" alt="Not found img">
+      </div>
+    </div>
+    <header>
+      <div>
+        <div style="font-weight: bold">Welcome to KoKaoTalk</div>
+        <div style="font-weight: 200;"><br>If you have a Kakao Account,<br>log in with your email or phone number.</div>
+      </div>
+    </header>
+
+    <main>
+      <form id="input_accounts">
+        <div class="form-group">
+          <input class="form-control" id="id" type="text" style="margin-block: 15px;" placeholder="아이디" onfocus="ID_input_onFocus()"><br>
+        </div>
+        <div class="form-group">
+          <input class="form-control" id="pw" type="password" placeholder="암  호" onfocus="PW_input_onFocus()"><br />
+        </div>
+        <input class="btn btn-primary" id="login" type="button" value="L O G I N" onclick="login_Btn_Click()" />
+        <div class="checkbox">
+          <label id="remember_account">
+            <input type="checkbox"> 계정정보를 저장할까요??
+          </label>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      &copy;SunHyisu.. (Kakao Talk Clone Coding)
+    </footer>
+  </body>
+
+</html>

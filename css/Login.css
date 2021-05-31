@@ -1,0 +1,79 @@
+﻿header {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.status-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+#input_accounts {
+	margin-top: 75px;
+	text-align: center;
+	/*height:15px;*/
+}
+
+.status-bar_icons {
+	width: 15px;
+}
+
+.input_account {
+	border: none;
+	border-bottom: 2px rgb(187, 186, 186) solid;
+}
+
+footer {
+	text-align: center;
+	margin-top: 150px;
+}
+
+@media not screen and (min-width:150px) and (max-width:450px) {
+	body {
+		visibility: hidden;
+	}
+
+		body::after {
+			visibility: visible;
+			content: "화면의 크기를 조절하여 주세요.";
+			display: flex;
+			justify-content: center;
+			position: relative;
+			top: -150px;
+			font-size: xx-large;
+			font-weight: bold;
+			font-family: 'Times New Roman', Times, serif;
+		}
+}
+
+@media screen and (min-width:150px) and (max-width:450px) {
+	body {
+		background-image: url("/img/kakao_background.png");
+	}
+}
+
+#login{
+	font-size:large;
+	font-family:Bahnschrift;
+	font-weight:bold;
+	width:150px;
+	position:relative;
+	top:15px;
+}
+
+.form-group{
+	display: flex;
+	justify-content: center;
+}
+
+#id, #pw{
+	text-align: center;
+	width: 150px;
+}
+
+#remember_account{
+	position: relative;
+	top: 15px;
+	font-weight: 900;
+	color: black;
+}
