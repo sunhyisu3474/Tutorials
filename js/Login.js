@@ -9,16 +9,6 @@ function ID_input_onFocus ()
   }
 }
 
-/*function ID_input_onblur ()
-{
-  const id = document.getElementById( "id" );
-
-  if ( id.onblur )
-  {
-    id.value = "ID";
-  }
-}*/
-
 function PW_input_onFocus ()
 {
   const pw = document.getElementById( "pw" );
@@ -31,17 +21,6 @@ function PW_input_onFocus ()
     pw.value = "dad";
   }
 }
-
-/*function PW_input_onblur ()
-{
-  const pw = document.getElementById( "pw" );
-
-  if ( pw.onblur )
-  {
-    pw.value = "PASSWORD";
-  }
-}*/
-
 
 function login_Btn_Click ()
 {

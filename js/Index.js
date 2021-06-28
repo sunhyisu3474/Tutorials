@@ -1,19 +1,15 @@
-﻿function Login_Btn_Click ()
-{
-	const loginBtn = document.getElementById( "loginBtn" );
+﻿function Login_Btn_Click() {
+	const loginBtn = document.getElementById("loginBtn");
 
-	if ( loginBtn.onclick )
-	{
+	if (loginBtn.onclick) {
 		location.href = "/html/Login.html";
 	}
 }
 
-function Register_Btn_Click ()
-{
-	const registerBtn = document.getElementById( "registerBtn" );
+function Register_Btn_Click() {
+	const registerBtn = document.getElementById("registerBtn");
 
-	if ( registerBtn.onclick )
-	{
+	if (registerBtn.onclick) {
 		location.href = "/html/Register.html";
 	}
 }
